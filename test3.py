@@ -4,5 +4,6 @@ def test_hello():
     assert hello('Nick') == 'hello,Nick'
     
 def test_other():
-    assert hello() == 'hello,world'    
+    for name in ['bull','will','clark']:
+        assert hello(name) == 'hello,world'    
     
