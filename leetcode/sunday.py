@@ -4,10 +4,11 @@
 
 def count():
     word = input('What is your word')
-    new_word = ''
+    new_word = 0
     vols = ['a','e','i','o','u']
-    for vols in word:
-        new_word += 1
-        print (new_word)
+    for _  in word.lower():
+        if _ in vols:
+            new_word += 1
+    print (new_word)    
         
 count()        
