@@ -1,4 +1,4 @@
-# Count Vowels in a String: Create a program that counts the number of vowels in a string.
+
 # Find Factorial: Write a function to find the factorial of a number using recursion.
 # Write a Python Program to Check Prime Number.
 
@@ -12,3 +12,10 @@ def count():
     print (new_word)    
         
 count()        
+
+def soln():
+    num = int(input("Enter a number: "))
+    def factorial( num ):
+        for i in range(num):
+            if num > 0:
+                return num * factorial(num - i)
