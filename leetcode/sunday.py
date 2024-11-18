@@ -13,13 +13,6 @@ def count():
         
 count()        
 
-def soln():
-    num = int(input("Enter a number: "))
-    def factorial( num ):
-        for i in range(num):
-            if num > 0:
-                return num * factorial(num - i)
-            
 def prime():
     number = int(input('Number: '))
     Flag = False
