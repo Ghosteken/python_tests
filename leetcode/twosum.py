@@ -1,0 +1,16 @@
+# class Solution:
+#     def twoSum(self,nums:list[int], target:int) -> list[int]:
+#         hashmap = {}
+#         for i in  range(len(nums)):
+#             diff = target - nums[i]
+#             if nums in hashmap:
+#                 return (i, [hashmap[diff[i]]])
+#             hashmap[diff[i]] = nums[i]
+            
+            
+# class Solution:
+#     def twosum(self, nums: list[int],target:int) -> list[int]:
+#         for i in range(len(nums)):
+#             for j in range(i + 1, len(nums)):
+#                 if nums[i] + nums[j] == target:
+#                     return(i, j)          

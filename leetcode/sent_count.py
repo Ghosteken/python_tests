@@ -1,8 +1,8 @@
-def sent_count(c):
+def sentence_count(c):
     arr = c.split(' ')
     return len(arr)
 
-print(sent_count('This is a test sentence.'))  
+print(sentence_count('This is a test sentence.'))  
 
 # Write a Python Program to Find Armstrong Number in an Interval.
 def armstr_number():
@@ -19,8 +19,6 @@ def armstr_number():
         if sum == num:
             print(num)    
              
-            
-            
   
 armstr_number()            
 
